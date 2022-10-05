@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,700&family=Qwitcher+Grypen:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    height: 10vh;
+    background-color: #0f0f0f;
+}
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #969696;
+}
+.main{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+main{
+    height: 90vh;
+    background-image: url(./Img/Rectangle\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+.centerTocenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ramka{
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+    margin-bottom: 80px;
+}
+main>p{
+  width: 720px;
+  text-align: center;
+}
+.ramka img{
+    border-bottom: 3px solid white; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.ramka p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.season{
+    background-color: black;
+    color: white;
+}
+.top,
+.bottom{
+    height: 70vh;
+    display: flex;
+}
+.top .left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 80px;
+    font-family: 'Playfair Display', serif;
+}
+.top .left h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top .left p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.top .right{
+    width: 45%;
+    background-image: url(./Img/Rectangle\ 8.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.top .right hr{
+    margin: 30px 0;
+}
+.top .right h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.top .right button{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+.clocks{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.clock div{
+    background-color: #19181c;
+    padding: 20px 22px;
+}
+
+.bottom .left{
+    background: url(./Img/Rectangle\ 9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+}
+.bottom .right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom .right h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.bottom .right p{
+    width: 470px;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+.bottom .right hr{
+margin: 40px 0;
+}
+.bottom .right button{
+    margin-top: 70px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.new{
+    background-color: black;
+    height: 120vh;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.new .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.new .container h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+}
+.new .container .clocks{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px; 
+}
+.brand{
+    background-color: #0f0f0f;
+    height: 70vh;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.brand .container{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brand .container h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.coco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+}
+footer{
+    background-image: url(./Img/Rectangle\ 15.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .clocks{
+    justify-content: space-between;
+    height: 60%;
+}
+footer .clock{
+    width: 25%;
+}
+footer .clock div{
+    background: none;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .clock div a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    margin: 10px;
+}
+footer h2{
+    font-family: 'Playfair Display',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 40px;
+}
+footer p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+input[type="email"]{
+    width: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    height: 40px;
+}
+input[type="submit"]{
+    width: 40%;
+    height: 40px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: #0f0f0f;
+}
+ header .container{
+height: 10vh;
+color: #FFFFFF;
+font-family: 'PT Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #D0D0D0;
+}
+header .container a{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+text-align: right;
+text-decoration-line: underline;
+color: #D0D0D0;
+}
+
+
+#burger{
+    width: 32px;
+    display: none;
+}
+@media (max-width: 576px) {
+  #burger{
+    display: block;
+  }  
+  header nav{
+    display: none;
+}
+.container{
+    width: 90%;
+ }
+ main>p {
+    width: 180px;
+}
+.top,
+.bottom{
+    height: fit-content;
+    flex-direction: column;
+}
+.top .left{
+    width: 100%; 
+}
+.clocks{
+    flex-direction: column;
+    align-items: center;
+}
+.top .right{
+    width: 100%;
+    height: 50vh;
+    margin-top: 20px;
+}
+}
